@@ -18,8 +18,8 @@ public class IndexController {
      * @return index
      */
     @GetMapping(path = "/")
-    public String getMethodName() {
+    public String indexHomePage() {
         return "index";
     }
-    
+
 }
